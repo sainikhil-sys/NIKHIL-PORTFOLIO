@@ -1,7 +1,7 @@
 import { Github, Linkedin, Mail, Code, Database, Server, Cpu, ExternalLink } from 'lucide-react';
 
 function App() {
-  const scrollToSection = (id: string) => {
+  const scrollToSection = (id) => {
     const element = document.getElementById(id);
     element?.scrollIntoView({ behavior: 'smooth' });
   };
